@@ -6,7 +6,7 @@
             header{
                 color: black;
                 background-color: darkseagreen;
-            }
+                            }
             nav{
                 color: darkmagenta;
                 background-color:palevioletred
@@ -17,38 +17,56 @@
             font-style:italic;
             text-align:start;
            }
+           .header_sec i {
+            padding-left: 100px;
+            
+            }
         
+            .nav_items a{
+                text-decoration: none;
+                padding: 25px;
+            }
+            .footer_part{
+                font-weight: 200;
+                padding-left: 100px;
+            }
+            .footer_icons i{
+                padding-left: 50px;
+            }
         </style>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 <header class="header_secton">
-    <p>
-    <i class="fa fa-user" aria-hidden="true"></i> <strong> Rohini Patil</strong> &nbsp;&nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i><strong> 9075922095</strong>&nbsp;&nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i><strong> beldarrohini8086@gmail.com</strong>
+    <p class="header_sec">
+        <span> <i class="fa fa-user" aria-hidden="true"><strong> Rohini Patil</strong></i>  </span>
+        <span> <i class="fa fa-phone-square" aria-hidden="true"><strong>9075922095</strong> </i></span>
+        <span> <i class="fa fa-envelope" aria-hidden="true"><strong> beldarrohini8086@gmail.com</i></span>
+   
 </p>
-
 </header> 
-<nav>
-    <a href="Home.Html" target="myFrame">Home</a>&nbsp;&nbsp;
-    <a href="techStack.html" target="myFrame">Tech stack</a>&nbsp;&nbsp;
-    <a href="CollegeDetails.html" target="myFrame">College Details</a>&nbsp;&nbsp;
-    <a href="Project_Details.html" target="myFrame">Project</a>&nbsp;&nbsp;
-    <a href="gallary.html" target="myFrame">Gallery</a>&nbsp;&nbsp;
-    <a href="PersonalDetails.html" target="myFrame">Personal</a>&nbsp;&nbsp;
-    <a href="other.html" target="myFrame">Others</a>
+
+
+<nav class="nav_items">
+    <span>  <a href="Home.Html" target="myFrame">Home</a></span>
+    <span> <a href="techStack.html" target="myFrame">Tech stack</a></span>
+    <span><a href="CollegeDetails.html" target="myFrame">College Details</a></span>
+    <span><a href="Project_Details.html" target="myFrame">Project</a></span>
+    <span><a href="gallary.html" target="myFrame">Gallery</a></span>
+    <span> <a href="PersonalDetails.html" target="myFrame">Personal</a></span>
+    <span><a href="other.html" target="myFrame">Others</a></span>
 </nav>
+
 <iframe name="myFrame" src="info.html" height="500" width="900" border:none> </iframe>
 
     </body>
     <footer>
 
-<strong> Follow me</strong> &nbsp;&nbsp;
-<a href="https://in.linkedin.com/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-&nbsp;&nbsp;<a href="https://www.google.com/"> <i class="fa fa-google" aria-hidden="true"></i> </a>&nbsp;&nbsp;
-<a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i> </a>&nbsp;&nbsp;
-<a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+<span class="footer_part"><strong>Follow Me</strong> </span>
+<span class="footer_icons"><a href="https://in.linkedin.com/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+<span class="footer_icons"><a href="https://www.google.com/"> <i class="fa fa-google" aria-hidden="true"></i> </a></span>
+<span class="footer_icons"><a href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i> </a></span>
+<span class="footer_icons"><a href="https://www.facebook.com/"> <i class="fa fa-facebook-official" aria-hidden="true"></i></a></span>
 
 
 

@@ -3,24 +3,31 @@
     <head>
         <title> My Profile</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+        <style>
+            .nav_items a{
+                padding: 25px;
+            }
+
+        </style>
     </head>
     <body>
 <header>
     <p>
-    <i class="fa fa-user" aria-hidden="true"></i> <strong> Rohini Patil</strong> &nbsp;&nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i><strong> 9075922095</strong>&nbsp;&nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i><strong> beldarrohini8086@gmail.com</strong>
-</p>
+     <span class="header_section"> <i class="fa fa-user" aria-hidden="true"></i>  Rohini Patil</span>
+     <span class="header_section"> <i class="fa fa-phone-square" aria-hidden="true"></i> 9075922095</span>
+     <span class="header_section"> <i class="fa fa-envelope" aria-hidden="true"></i><strong> beldarrohini8086@gmail.com</span>
+     </p>
 
 </header>
-<nav>
-    <a href="Home.Html" target="myFrame">Home</a>&nbsp;&nbsp;
-    <a href="techStack.html" target="myFrame">Tech stack</a>&nbsp;&nbsp;
-    <a href="CollegeDetails.html" target="myFrame">College Details</a>&nbsp;&nbsp;
-    <a href="Project_Details.html" target="myFrame">Project</a>&nbsp;&nbsp;
-    <a href="gallary.html" target="myFrame">Gallery</a>&nbsp;&nbsp;
-    <a href="PersonalDetails.html" target="myFrame">Personal</a>&nbsp;&nbsp;
-    <a href="other.html" target="myFrame">Others</a>
+<nav class="nav_items">
+   <span>  <a href="Home.Html" target="myFrame">Home</a></span>
+   <span> <a href="techStack.html" target="myFrame">Tech stack</a></span>
+   <span><a href="CollegeDetails.html" target="myFrame">College Details</a></span>
+   <span><a href="Project_Details.html" target="myFrame">Project</a></span>
+   <span><a href="gallary.html" target="myFrame">Gallery</a></span>
+   <span> <a href="PersonalDetails.html" target="myFrame">Personal</a></span>
+   <span><a href="other.html" target="myFrame">Others</a></span>
 </nav>
 <iframe name="myFrame" src="info.html" height="500" width="700"> </iframe>
 
